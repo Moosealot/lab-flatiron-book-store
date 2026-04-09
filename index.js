@@ -57,7 +57,7 @@ const bookStore = {
 
     bookTitle.textContent = book.title;
     bookAuthor.textContent = book.author;
-    bookImage.src = book.image;
+    bookImage.src = book.imageUrl;
 
     bookContainer.appendChild(bookTitle);
     bookContainer.appendChild(bookAuthor);
@@ -65,6 +65,8 @@ const bookStore = {
 
     bookList.appendChild(bookContainer);
   });
+
+//   console.log(book.image);
 
 });
 
